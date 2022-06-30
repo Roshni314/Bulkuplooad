@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+h1{
+   color: blue;
+   font-size: 70px;
+   background-color: antiquewhite;
+   padding-left: 800px;
+}
+ table{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+ }
+
+ th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(170, 240, 240);
+    padding: 10px;
+ }
+ tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+ }
+ td{
+   border: 1px solid black;
+   border-collapse: collapse;
+   padding: 10px;
+}
+tr:hover{
+   background-color: rgb(238, 138, 159);
+}
